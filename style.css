@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, arial;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+
+}
+
+
+header img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+nav {
+    overflow: hidden;
+}
+
+a.menu,
+a.active {
+    display: block;
+    width: 25%;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 5px;
+    background-color: darkgray;
+    padding: 15px 30px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+
+
+
+}
+
+a.menu:hover {
+    background-color: rgb(206, 204, 204);
+    text-decoration: underline;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px grey;
+    padding: 7px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+nav .active {
+    background-color: rgb(206, 204, 204);
+    text-decoration: underline;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px grey;
+    padding: 7px 20px;
+    border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+    a.menu {
+        width: 50%;
+        font-size: 20px;
+    }
+    .she, .he, .left, .rynek {
+        display: none;
+    }
+    .owners, .rojber1 {
+        height: 100px;
+    }
+    
+
+}
+
+@media (max-width: 500px) {
+    a.menu {
+        width: 100%;
+        color: red;
+    }
+    .she, .he, .left, .rynek {
+        display: none;
+    }
+    .owners, .rojber1 {
+        height: 100px;
+    }
+}
+
+
+article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+
+}
+
+.left {
+    float: right;
+    width: 25%;
+    max-width: 200px;
+    margin: 20px;
+
+}
+
+.rynek {
+    float: left;
+    margin: 10px 10px;
+    border-radius: 0px 5px 5px 0px;
+    width: 50%;
+    box-shadow: 5px 10px 20px grey;
+
+}
+
+.she {
+    float: left;
+    margin: 10px 10px;
+    border-radius: 0px 5px 5px 0px;
+    width: 15%;
+    height: 250px;
+    box-shadow: 5px 10px 20px grey;
+
+}
+.he {
+    float: left;
+    margin: 10px 10px;
+    border-radius: 0px 5px 5px 0px;
+    width: 50%;
+    box-shadow: 5px 10px 20px grey;
+
+}
+.rojber1 {
+    height: 500px;
+}
+.owners {
+    height: 500px;
+}
+
+article p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgrey;
+    color: darkgray;
+    line-height: 40px;
+    margin: 20px;
+
+}
